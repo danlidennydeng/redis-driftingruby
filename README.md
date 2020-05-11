@@ -1,0 +1,3 @@
+# README
+
+successed. But too sample to show what redis can do...
