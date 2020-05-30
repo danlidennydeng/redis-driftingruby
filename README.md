@@ -18,3 +18,6 @@ sending mail might be the best use case for a background job, since a user do no
 https://github.com/mperham/sidekiq/wiki/Getting-Started
 
 a lot of documents to read...
+
+--------------------------------------------------------------------------
+Both sidekiq tutorials resides on local user Webpack2
