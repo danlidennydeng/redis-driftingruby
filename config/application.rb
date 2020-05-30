@@ -16,3 +16,10 @@ module RedisDriftingruby
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+module BackgroundJobsWithSidekiq
+  class Application < Rails::Application
+    config.active_job.queue_adapter = :sidekiq 
+    # config.active_job.queue_adapter = Rails.env.production? ? :sidekiq : :async
+  end
+end
