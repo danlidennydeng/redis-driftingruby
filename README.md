@@ -1,5 +1,7 @@
 # README
 Ruby 2.6.6, Rails 5.1.7, sqlite3
+Both sidekiq tutorials resides on local user Webpack2
+------------------------------------------------------------------------
 
 tutorial on driftingruby.com 
 
@@ -20,4 +22,7 @@ https://github.com/mperham/sidekiq/wiki/Getting-Started
 a lot of documents to read...
 
 --------------------------------------------------------------------------
-Both sidekiq tutorials resides on local user Webpack2
+
+gem 'sidekiq-cron'
+
+so that generate_random_user_job.rb can be run automatically every minutes, instead of manually...
